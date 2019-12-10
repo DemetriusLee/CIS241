@@ -1,0 +1,91 @@
+body {
+	background-color:#F5F5F5;
+}
+
+article {
+	background-color:#ffffff;
+	margin-left:5%;
+	margin-right:5%;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+img {
+	width:100%;
+	height:auto;
+}
+
+img.floatleft {
+	float:left;
+	max-width:10%;
+	height:auto;
+	padding-right:10px;
+}
+
+img.floatright {
+	float:right;
+	max-width:15%;
+	height:auto;
+}
+
+p.home-text {
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size:20px;
+}
+
+p.interests-right-text {
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-right:140px;
+	font-size:20px;
+}
+
+p.interests-left-text {
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:140px;
+	font-size:20px;
+}
+
+p.center {
+	text-align:center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #d3d3d3;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #ddd;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+
+.topnav a:hover {
+  background-color: #b0bfd4; /*color gray*/
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #676767;
+  color: white;
